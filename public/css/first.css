@@ -1,0 +1,20 @@
+h1{
+    color: blue;
+    background-color: red;
+    text-align: right;
+}
+*{
+    color: brown;
+    background-color: rgb(115, 199, 242);
+}
+input[type="text"]{
+    color: rgb(6, 235, 33);
+
+}
+div{
+    width: 500px;
+    height: 10px;
+    text-align: justify;
+    float: right;
+    
+}
