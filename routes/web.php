@@ -19,3 +19,7 @@ use Illuminate\Support\Facades\Route;
 
 Route::view('/','welcome');
 Route::view('second','second');
+Route::view('third','third');
+route::view('fourth','grid');
+route::view('fifth','grid1');
+route::view('sixth','mtest');

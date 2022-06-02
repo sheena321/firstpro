@@ -73,7 +73,7 @@
     <h1 class="n1">class selector2</h1>
     <h1 id="n2">id selector1</h1>
     <h3 id="n3">id selector2</h3>
-    <p class="n1">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi iusto voluptates ullam. Dolorem
+    <p class="n1">Lorem ipsum dolor sit amet, consectetur <span>adipisicing elit6666666666. Excepturi </span>iusto voluptates ullam. Dolorem
         dolore sapiente magni accusantium commodi libero perspiciatis!</p>
     <h2>global selector</h2>
     <p class="n1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi, vero?</p>
