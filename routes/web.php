@@ -23,3 +23,6 @@ Route::view('third','third');
 route::view('fourth','grid');
 route::view('fifth','grid1');
 route::view('sixth','mtest');
+route::view('seventh','boot');
+
+route::view('eighth','table');
