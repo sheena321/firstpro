@@ -26,3 +26,21 @@ route::view('sixth','mtest');
 route::view('seventh','boot');
 
 route::view('eighth','table');
+route::view('nineth','javas');
+route::view('tenth','message');
+
+route::view('eleventh','conditional');
+
+route::view('twelveth','nested');
+
+route::view('thirteenth','loopquest');
+route::view('forteenth','function');
+route::view('fifteenth','fun_class');
+route::view('sixteenth','pbms');
+route::view('seventeenth','multiselection');
+route::view('eighteenth','domclass2');
+route::view('nineteenth','validation');
+
+Route::post('nineteenth', function () {
+    echo"success";
+});
