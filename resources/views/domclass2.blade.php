@@ -17,7 +17,7 @@
 <body>
     <table border=5 width="500px" height="500px">
         <tr>
-            <td colspan="4"><input type="text" name="" id="disp" style="width:100% " readonly ></td>
+            <td colspan="4"><input type="text" name="" id="disp" style="width:100% " readonly></td>
         </tr>
         <tr>
             <td><button style="border:none; background-color: beige; width: 100%;" onclick="optr('+')">+</button></td>
@@ -32,7 +32,8 @@
             </td>
             <td><button style="border:none; background-color: beige; width: 100%;" onclick="setnumbers('3')">3</button>
             </td>
-            <td rowspan="4"><button style="border:none; background-color: beige; width: 100%;" onclick="calcfn()">=</button></td>
+            <td rowspan="4"><button style="border:none; background-color: beige; width: 100%;"
+                    onclick="calcfn()">=</button></td>
         </tr>
         <tr>
             <td><button style="border:none; background-color: beige; width: 100%;" onclick="setnumbers('4')">4</button>
@@ -53,12 +54,13 @@
         <tr>
             <td><button style="border:none; background-color: beige; width: 100%;" onclick="setnumbers('0')">0</button>
             </td>
-            <td><button id="bdot" style="border:none; background-color: beige; width: 100%;" onclick="dott()">.</button></td>
+            <td><button id="bdot" style="border:none; background-color: beige; width: 100%;" onclick="dott()">.</button>
+            </td>
             <td><button style="border:none; background-color: beige; width: 100%;" onclick="cleartext()">c</button></td>
         </tr>
     </table>
     <script>
-        count=0
+        count = 0
         function setnumbers(num) {
             document.getElementById('disp').value += num
         }
@@ -83,19 +85,21 @@
             document.getElementById('disp').value = result;
 
         }
-        function dott(){
+        function dott() {
             // val=document.getElementById("disp").value
             // len=val.length
             // if((==)
-            count=count+1
-            if(count>1)
-            {
-                document.getElementById("bdot").disable=true;
-            }
-
-}
+            count = count + 1
+            if (count > 1) {
+                document.getElementById("bdot").disable =true;
+                document.getElementById('disp').value += "."
+            } 
+            else
+             { document.getElementById('disp').value += num }
 
         }
+
+        
 
     </script>
 </body>
